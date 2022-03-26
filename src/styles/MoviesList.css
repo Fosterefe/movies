@@ -1,0 +1,31 @@
+.ml {
+    width: 100%;
+    min-height: 85vh;
+    background-color: #1f476d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ml-c {
+    width: 90%;
+    padding-top: 25px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 480px) {
+    .ml-c {
+        width: 60%;
+        justify-content: center;
+    } 
+}
+
+@media screen and (max-width: 399px) {
+    .ml-c {
+        width: 100%;
+        justify-content: center;
+    } 
+}

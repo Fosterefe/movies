@@ -1,0 +1,42 @@
+.mc {
+    width: 230px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    color: white;
+    background-color: #0c3355;
+    margin-bottom: 30px;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.img {
+    width: 100%;
+    height: 75%;
+}
+
+.mc-text {
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 5px;
+}
+
+
+.img img {
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.mc:hover {
+    transform: scale(1.05);
+}
