@@ -17,7 +17,7 @@ function App() {
     if (searchTerm !== '') {
       const newMovies = movies.filter((m) => {
         return m.Title.replace(/\s/g, '').toLowerCase().includes(searchTerm.replace(/\s/g, '').toLowerCase())
-      });
+      }); 
       setSearchMovies(newMovies)
     }
     else {
